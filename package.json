@@ -1,6 +1,6 @@
 {
   "name": "tn-electron-winbounds",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "",
   "keywords": [],
   "main": "dist/index.js",
@@ -9,6 +9,10 @@
     "Serve": "parcel .dev/parcel/index.html --out-dir .dev/parcel/dist --cache-dir .dev/parcel/cache --open",
     "Build": "rimraf dist && rollup -c",
     "Publish": "rimraf .dev/parcel/dist & rimraf .dev/parcel/cache && npm run Build && yarn publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JawadAhbab/tn-electron-winbounds.git"
   },
   "author": "Turnova",
   "license": "MIT",
