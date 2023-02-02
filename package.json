@@ -1,6 +1,6 @@
 {
   "name": "tn-electron-winbounds",
-  "version": "2.1.5",
+  "version": "2.1.6",
   "description": "",
   "keywords": [],
   "main": "dist/index.js",
@@ -18,7 +18,7 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.20.13",
-    "tn-storage": "^6.0.7",
+    "tn-storage": "^6.0.8",
     "tn-timeout": "^1.0.0"
   },
   "peerDependencies": {},

@@ -2573,10 +2573,10 @@ tn-reactive@^6.0.3:
     tn-react-hooks "^1.5.3"
     tn-validate "^3.1.5"
 
-tn-storage@^6.0.7:
-  version "6.0.7"
-  resolved "https://registry.yarnpkg.com/tn-storage/-/tn-storage-6.0.7.tgz#8f7f4ef510979c1a02e014bdc4ed00acb016c773"
-  integrity sha512-+Rh3im64Fhrq82+Dhv5WKqtMD44eToCCT3OAEKxJuWc3/XQuods3qs+0fXvYm7LzznKhdp11IHd+4hYfSrpoUQ==
+tn-storage@^6.0.8:
+  version "6.0.8"
+  resolved "https://registry.yarnpkg.com/tn-storage/-/tn-storage-6.0.8.tgz#505a179bfd22da70aea0e5528dde1ab08472a4bc"
+  integrity sha512-JY2Hvb1v1uYVGcnr+pJC7aHGRy2hP2xaMW/At9MvGj/heQkkKnCdU/oLDHq1hT0SQW3Z+hqlY5AeCEK91nUCew==
   dependencies:
     "@babel/runtime" "^7.20.7"
     electron-store "^8.1.0"
