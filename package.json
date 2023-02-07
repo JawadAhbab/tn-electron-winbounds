@@ -1,7 +1,7 @@
 {
   "name": "tn-electron-winbounds",
-  "version": "2.1.6",
-  "description": "",
+  "version": "2.2.0",
+  "description": " ",
   "keywords": [],
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
@@ -18,7 +18,7 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.20.13",
-    "tn-storage": "^6.0.8",
+    "tn-storage": "^6.1.2",
     "tn-timeout": "^1.0.0"
   },
   "peerDependencies": {},
@@ -28,10 +28,9 @@
     "@babel/plugin-transform-runtime": "^7.19.6",
     "@babel/preset-env": "^7.20.2",
     "@rollup/plugin-babel": "^6.0.3",
-    "@types/node": "^18.11.18",
-    "electron": "^22.2.0",
-    "rollup": "^3.12.1",
-    "rollup-plugin-terser": "^7.0.2",
+    "@types/node": "^18.11.19",
+    "electron": "^23.0.0",
+    "rollup": "^3.14.0",
     "rollup-plugin-typescript2": "^0.34.1",
     "typescript": "^4.9.5"
   }
