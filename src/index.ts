@@ -19,8 +19,6 @@ export class ElectronWinbounds {
     this.win.on('resized', () => this.states.saveStates())
     this.win.on('maximize', () => this.states.saveStates())
     this.win.on('unmaximize', () => this.states.saveStates())
-    this.win.webContents.on('did-finish-load', () => this.states.applyStates())
-
     screen.on('display-added', () => this.posfix.fix())
     screen.on('display-removed', () => this.posfix.fix())
     screen.on('display-metrics-changed', () => this.posfix.fix())

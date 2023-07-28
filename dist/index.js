@@ -136,9 +136,6 @@ var ElectronWinbounds = /*#__PURE__*/function () {
       this.win.on('unmaximize', function () {
         return _this3.states.saveStates();
       });
-      this.win.webContents.on('did-finish-load', function () {
-        return _this3.states.applyStates();
-      });
       electron.screen.on('display-added', function () {
         return _this3.posfix.fix();
       });
